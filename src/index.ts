@@ -24,7 +24,7 @@ function unrefArray(arr: []) {
   arr.map(smartUnref)
 }
 
-function unrefObject(obj: object) {
+function unrefObject(obj: any) {
   const unreffed: any = {}
 
   Object.keys(obj).forEach((key) => {
