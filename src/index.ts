@@ -2,7 +2,7 @@ import { isRef, unref } from 'vue'
 import { isObject } from '@vueuse/core'
 
 export function deepUnref(val: any) {
-  const checkedVal: any = isRef(val) ? unref(val) : val
+  const checkedVal: [] = isRef(val) ? unref(val) : val
 
   if (!isObject(checkedVal))
     return checkedVal
@@ -21,13 +21,11 @@ function smartUnref(val: any) {
 }
 
 function unrefArray(arr: []) {
-  // eslint-disable-next-line no-console
-  console.log('unreffing array', arr)
   arr.map(smartUnref)
 }
 
 function unrefObject(obj: object) {
-  const unreffed = {}
+  const unreffed: any = {}
 
   Object.keys(obj).forEach((key) => {
     unreffed[key] = smartUnref(obj[key])
