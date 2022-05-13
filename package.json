@@ -54,6 +54,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@vueuse/core": "^8.4.2",
     "vue": "^3.2.33"
   },
   "devDependencies": {
