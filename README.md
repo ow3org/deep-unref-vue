@@ -20,7 +20,7 @@ const form = {
   email: ref('jane@doe.com'),
 }
 
-saveToApu({ ...deepUnref(form) });
+saveToApi({ ...deepUnref(form) })
 ```
 
 ## 🧪 Testing
