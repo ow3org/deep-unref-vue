@@ -1,6 +1,6 @@
 {
   "name": "@ow3/deep-unref-vue",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "packageManager": "pnpm@7.1.0",
   "description": "Easily remove all refs from an object using the `deepUnref`-composable.",
   "keywords": [
