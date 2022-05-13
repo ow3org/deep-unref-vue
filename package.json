@@ -1,23 +1,23 @@
 {
-  "name": "my-pkg",
-  "version": "0.1.0",
+  "name": "@openweb/deep-unref-vue",
+  "version": "0.0.0",
   "packageManager": "pnpm@7.1.0",
-  "description": "",
+  "description": "Easily remove all refs from an object using the `deepUnref`-composable.",
   "keywords": [
     "vue",
     "composable",
     "unref",
     "deep"
   ],
-  "homepage": "https://github.com/openweblabs/ts-starter#readme",
+  "homepage": "https://github.com/openweblabs/deep-unref-vue#readme",
   "bugs": {
-    "url": "https://github.com/openweblabs/ts-starter/issues"
+    "url": "https://github.com/openweblabs/deep-unref-vue/issues"
   },
   "license": "MIT",
   "author": "Chris Breuer <chris@ow3.org>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openweblabs/ts-starter.git"
+    "url": "git+https://github.com/openweblabs/deep-unref-vue.git"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",

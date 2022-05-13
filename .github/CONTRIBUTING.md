@@ -33,9 +33,9 @@ right corner. After the project has been forked, run the following commands in y
 
 ```bash
 # Replace {github-username} with your GitHub username.
-$: git clone https://github.com/{github-username}/ts-starter --depth=1
+$: git clone https://github.com/{github-username}/deep-unref-vue --depth=1
 
-$: cd ts-starter
+$: cd deep-unref-vue
 
 # Create a branch for your PR, replace {issue-no} with the GitHub issue number.
 $: git checkout -b issue-{issue-no}
@@ -46,7 +46,7 @@ pull requests from the forked branch.
 
 ```bash
 # Add the original repository as a "remote" called "upstream".
-$: git remote add upstream git@github.com:openweblabs/ts-starter.git
+$: git remote add upstream git@github.com:openweblabs/deep-unref-vue.git
 
 # Fetch the git information from the remote.
 $: git fetch upstream
@@ -71,18 +71,18 @@ Simply refer to the link, and also see existing commits to get an idea of how to
 
 ```bash
 # Add all changes to staging to be committed.
-$: git add .
+git add .
 
-# Commit changes.
-$: git commit -m 'your commit message'
+# Commit changes & follow the CLI prompts.
+pnpm run commit
 
-# Push changes up to GitHub.
-$: git push
+# Push changes up to GitHub
+git push
 ```
 
 ## 🎉 Pull Request
 
-When you're all done head over to the [repository][deep-unref], and click the big green
+When you're all done head over to the [repository][deep-unref-vue], and click the big green
 `Compare & Pull Request` button that should appear after you've pushed changes to your fork.
 
 Don't expect your PR to be accepted immediately or even accepted at all. Give the community time to
@@ -93,6 +93,6 @@ contribution is appreciated more than you can imagine, and even a failed PR can 
 [vitebook]: https://vitebook.dev/
 [vue]: https://v3.vuejs.org/
 [vue-components]: https://vuejs.org/v2/guide/components.html
-[deep-unref]: https://github.com/openweblabs/ts-starter
+[deep-unref-vue]: https://github.com/openweblabs/deep-unref-vue
 [semantic-commit-style]: https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
 [pr-beginner-series]: https://app.egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
