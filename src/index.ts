@@ -21,6 +21,8 @@ function smartUnref(val: any) {
 }
 
 function unrefArray(arr: []) {
+  // eslint-disable-next-line no-console
+  console.log('unreffing array', arr)
   arr.map(smartUnref)
 }
 

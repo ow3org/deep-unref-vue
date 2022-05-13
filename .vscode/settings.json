@@ -5,6 +5,7 @@
     "source.fixAll.eslint": true
   },
   "editor.formatOnSave": false,
+  "vitest.enabled": true,
   "cSpell.words": [
     "openweblabs",
     "openweb",
@@ -35,6 +36,7 @@
     "socio",
     "esno",
     "unref",
+    "unrefs",
     "unreffed"
   ]
 }
