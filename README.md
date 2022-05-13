@@ -7,13 +7,13 @@ Similar to `unref()`, easily remove all refs recursively from an object using th
 Luckily, it's incredibly easy to get your package development started with this slightly opinionated starter kit.
 
 ```bash
-npm install @openweb/deep-unref-vue
+npm install @ow3/deep-unref-vue
 ```
 
 ## 👩🏽‍💻 Usage
 
 ```js
-import { deepUnref } from '@openweb/deep-unref-vue'
+import { deepUnref } from '@ow3/deep-unref-vue'
 
 const form = {
   name: ref('Jane Doe'),
@@ -31,7 +31,7 @@ pnpm test
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/meemalabs/deep-unref-vue/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/openweb/deep-unref-vue/releases) page for more information on what has changed recently.
 
 ## 💪🏼 Contributing
 
