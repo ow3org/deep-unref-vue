@@ -58,7 +58,7 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.25.2",
+    "@antfu/eslint-config": "^2.27.3",
     "@commitlint/config-conventional": "^17.0.2",
     "@commitlint/cz-commitlint": "^17.0.0",
     "@commitlint/types": "^17.0.0",
